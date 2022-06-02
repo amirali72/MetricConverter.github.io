@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric Conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="logo.png" alt="logo"></a>
+    </header>
+
+    <div class="outerContainer">
+        <div class="container">
+                <form id="unitCalc" onsubmit="calcVal(); return false">
+                    <label for="temp">Please enter the value you want to convert</label>
+                    <input type="number" name="number" id="unitVal">
+                    <select name="options" id="unitOpt">
+                        <option value="inch" id="inch">Inches</option>
+                        <option value="ft" id="ft">Foot</option>
+                        <option value="yd" id="m">Yard</option>
+                        <option value="mile" id="mile">Miles</option>
+                    </select>
+                    <input type="submit" value="SUBMIT" id="submit">
+                    <span id="resultContainer"></span>
+                </form>
+        </div>
+    </div>
+
+    <script src="staTOmet.js"></script>
+</body>
+
+</html>

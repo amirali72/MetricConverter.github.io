@@ -1,0 +1,73 @@
+@media screen and (max-width: 480px) {
+    header img {
+        margin-left: 20vw;
+        width: 80vw;
+    }
+
+    .container p a {
+        text-decoration: none;
+        color: rgb(255 255 255);
+        font-size: 3.4vw;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+
+    .container p a:hover{
+        text-decoration: none;
+        color: #F8E3A9;
+        font-size: 3.4vw;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+
+    .container {
+        background-color: #5d2e20;
+        height: 70vh;
+        width: 80vw;
+        box-shadow: 5px 4px 4px rgb(255 255 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container p {
+        margin: 8.2vw;
+        margin-left: 4vw;
+      }
+
+      #unitCalc label {
+        font-size: 3.5vw;
+        margin-bottom: 3vw;
+    }
+    #unitVal {
+        width: 54vw;
+        height: 3vh;
+        font-size: 2.5vw;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        padding-left: 2vw;
+    }
+    #unitOpt {
+        width: 27vw;
+        height: 3vh;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        margin-bottom: 2vw;
+        font-size: 3vw;
+    }
+    #submit {
+        width: 27vw;
+        height: 3vh;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        background-color: rgb(177, 144, 144);
+        color: #000000;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-bottom: 1vw;
+        font-size: 3vw;
+    }
+
+    #resultContainer {
+        font-size: 4vw;
+        margin-top: 10vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+}
