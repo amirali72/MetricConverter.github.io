@@ -63,6 +63,16 @@
         margin-bottom: 1vw;
         font-size: 3vw;
     }
+    
+    #submit:hover{
+        width: 27vw;
+        height: 3vh;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        background-color: #000000;
+        color: rgb(177, 144, 144);
+        border: none;
+        border-radius: 3px;
+    }
 
     #resultContainer {
         font-size: 4vw;
